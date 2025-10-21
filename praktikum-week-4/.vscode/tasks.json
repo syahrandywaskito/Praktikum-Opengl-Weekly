@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "D:\\Msys2\\Msys2_64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"-ID:\\CODE\\C++\\Praktikum-Opengl-Weekly\\praktikum-week-4/include",
+				"-LD:\\CODE\\C++\\Praktikum-Opengl-Weekly\\praktikum-week-4/lib",
+				"D:\\CODE\\C++\\Praktikum-Opengl-Weekly\\praktikum-week-4/src/*.cpp",
+				"D:\\CODE\\C++\\Praktikum-Opengl-Weekly\\praktikum-week-4/src/glad.c",
+				"-lglfw3dll",
+				"-lfreeglut",
+				"-lopengl32",
+				"-lglu32",
+				"-o",
+				"D:\\CODE\\C++\\Praktikum-Opengl-Weekly\\praktikum-week-4/main.exe"
+			],
+			"options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+			"detail": "compiler: D:\\Msys2\\Msys2_64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
